@@ -2,21 +2,17 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   list-style: none;
 }
-
 /* header */
 .header-top {
   height: 80px;
   line-height: 80px;
 }
-
 ul.navbar-menu li,
 ul.navbar-language li {
   display: inline-block;
@@ -38,12 +34,12 @@ ul.navbar-language li a {
 .header-top .logo {
   vertical-align: middle;
 }
-
-ul.navbar-language :not(li:last-child) a {
-  border-right: 2px solid black;
-  padding-right: 10px;
+ul.navbar-language li{
+  padding-left: 20px;
 }
-
+ul.navbar-language li:not(:last-child):after{
+  content: " |";
+}
 /* jumbo */
 .jumbo {
   background-image: url('../img/hero-bg.jpg');
@@ -52,15 +48,12 @@ ul.navbar-language :not(li:last-child) a {
   height: 450px;
   position: relative;
 }
-
 .jumbo h1 {
   font-size: 32px;
 }
-
 .jumbo p {
   margin: 10px 0;
 }
-
 .jumbo .testo {
   position: absolute;
   top:50%;
@@ -74,4 +67,17 @@ ul.navbar-language :not(li:last-child) a {
   .jumbo h1 {
     font-size: 26px;
   }
+}
+
+#prodotti img{
+  width: 500px;
+}
+.section-prodotti .row [class*="col-"] {
+  height: 100%;
+}
+.section-prodotti .row .row [class*="col-"] {
+  background-color: #FAFAFA;
+}
+.section-prodotti .row .row {
+  padding: 50px 10px;
 }
