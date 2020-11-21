@@ -90,6 +90,7 @@ ul.navbar-language li:not(:last-child):after{
 }
 
 /* SEZIONE MOBILITY */
+
 #mobility .row{
   background-image: url('../img/bush.jpg');
   background-repeat: no-repeat;
