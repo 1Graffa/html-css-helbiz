@@ -86,7 +86,7 @@ ul.navbar-language li:not(:last-child):after{
   background-color: #FAFAFA;
 }
 .section-prodotti .row .row {
-  margin: 100px 20px;
+  margin: 50px 20px;
 }
 
 /* SEZIONE MOBILITY */
@@ -155,3 +155,31 @@ height: 700px;
 #app a{
   color: white;
   text-decoration: none;
+}
+/* FAMILY */
+#family{
+  height: 400px;
+  background-image: url(../img/wall.jpeg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#family .box{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 50px 70px;;
+}
+#family li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+}
+#family li:hover,
+#family h2:hover{
+  color: #405467;
+  cursor: pointer;
+}
