@@ -88,12 +88,7 @@ ul.navbar-language li:not(:last-child):after{
 .section-prodotti .row .row {
   margin: 100px 20px;
 }
-.section-prodotti .row .rowleft{
-  margin-left: 100px;
-}
-.section-prodotti .row .rowright{
-  margin-right: 100px;
-}
+
 /* SEZIONE MOBILITY */
 #mobility .row{
   background-image: url('../img/bush.jpg');
@@ -128,3 +123,35 @@ ul.navbar-language li:not(:last-child):after{
   color: inherit;
   text-decoration: none;
 }
+/* SMART MOBILITY */
+#app .row .rowleft [class*="col-"]{
+background-color: #405467;
+position: relative;
+height: 700px;
+}
+#app .row .rowleft .bottom-0{
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#app .row .rowright [class*="col-"]{
+background-image: url('../img/monumento.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 700px;
+}
+#app h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 90px;
+  padding-top: 50px;
+}
+#app h3{
+  padding: 20px;
+}
+#app a{
+  color: white;
+  text-decoration: none;
